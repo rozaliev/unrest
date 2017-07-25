@@ -1,0 +1,18 @@
+[package]
+name = "unrest_codegen"
+version = "0.1.0"
+authors = ["Evgeny Rozaliev <rozaliev@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+quote = { git = "https://github.com/dtolnay/quote", commit = "873c0d0ecda5acaa8727262f00122856be745e61" }
+proc-macro2 = "*"
+
+[dependencies.syn]
+git = 'https://github.com/dtolnay/syn'
+commit = "24f128215d93f197ae0d7750c5248eee7df0272e"
+features = ["full", "fold", "parsing", "printing"]
+default-features = false
+
+[lib]
+proc-macro = true
