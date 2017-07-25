@@ -1,0 +1,13 @@
+[package]
+name = "helloworld"
+version = "0.1.0"
+authors = ["Evgeny Rozaliev <rozaliev@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+unrest = { path = "../unrest" }
+unrest_codegen = { path = "../unrest_codegen" }
+futures = "*"
+serde = "*"
+serde_derive = "*"
+hyper = "0.11.1"
