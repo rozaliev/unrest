@@ -1,0 +1,14 @@
+[package]
+name = "unrest"
+version = "0.1.0"
+authors = ["Evgeny Rozaliev <rozaliev@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+futures = "*"
+hyper = "0.11.1"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+route-recognizer = "*"
+tokio-core = "*"
